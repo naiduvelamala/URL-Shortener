@@ -1,0 +1,53 @@
+body {
+  background: #0b0f1a;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.card {
+  width: 420px;
+  margin: auto;
+  background: #12192c;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 20px; /* 👈 pushes it DOWN */
+  padding: 12px;
+  background: #0b1225;
+  border-radius: 6px;
+}
+
+.result-box a {
+  color: #60a5fa;
+  word-break: break-all;
+}
+
+.error {
+  margin-top: 10px;
+  color: #f87171;
+}
